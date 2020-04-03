@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Image, TouchableOpacity } from 'react-native';
 
-import styles from './styles';
-
 import camera from '../../assets/camera.png';
 import logo from '../../assets/logo.png';
 import send from '../../assets/send.png';
+
+import styles from './styles';
 
 export default function Header() {
     return (
@@ -13,13 +13,13 @@ export default function Header() {
             <View style={styles.logoArea}>
                 <TouchableOpacity>
                     <Image
-                    style={[styles.directIcon, { width: 30 }]}
+                    style={[styles.directIcon, { width: 35 }]}
                     source={camera}
                     />
                 </TouchableOpacity>
                 
                 <Image
-                style={{ marginLeft: 15 }}
+                style={{ marginLeft: 8, marginTop: 12 }}
                 source={logo}
                 />
             </View>

@@ -13,10 +13,10 @@ export default StyleSheet.create({
     },
     logoArea: {
         flexDirection: 'row',
-        marginHorizontal: 5
+        alignItems: 'center',
     },
     directIcon: {
-        width: 25,
-        height: 25
+        width: 30,
+        height: 30
     }
 });
